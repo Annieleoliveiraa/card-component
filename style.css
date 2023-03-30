@@ -1,33 +1,111 @@
 html, body {
-  font-family: 'DM Sans', sans-serif;
-  background-color:  hsl(27, 66%, 92%);
+font-family: 'DM Sans', sans-serif;
+background-color:  hsl(27, 66%, 92%);
 }
 
-.container {
-  display: flex;
+h2 {
+color: hsl(25, 47%, 15%);
+padding-top: 15px;
+padding-left: 10px;
+}
+ 
+.card-container {
+background-color: hsl(10, 79%, 65%);
+width: 400px;
+min-height: 90px;
+margin: auto;
+margin-top: 40px;
+border-radius: 18px;
+display: flex;
+}
+
+.card-2 {
+display: flex;
+flex-direction: column;
+}
+
+.card-img {
+display: flex;
+align-items: center;
+} 
+
+.card-text {
+padding-top: 8px;
+margin-left: 20px;
+color: white; 
+font-size: 12px;
+}
+
+.card-number {
+color: white;
+font-weight: bold;
+font-size: 20px;
+margin-top: -2px;
+margin-left: 20px;
+}
+
+.image {
+width: 80px;
+height: 40px;
+margin-left: 210px;
+}
+
+
+
+.container-box {
+  background-color: white;
+  width: 400px;
+  min-height: 440px;
   margin: auto;
-  margin-top: 50px;
-  background-color: lightgreen;
-  width: 500px;
-  height: 90px;
-  border-radius: 10px;
+  border-radius: 18px;
 }
 
-.text-balance {
-  color: white;
-  font-size: 12px;
-  padding-top: 10px;
-  padding-left: 15px;
+.boxes {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  min-height: 200px;
 }
 
-.text-number {
-  color: white;
-  font-size: 20px;
-  font-weight: bolder;
-  padding-left: 10px;
+.box-1 {
+   background-color: hsl(10, 79%, 65%);
+   width: 60px;
+   border-radius: 8px;
 }
 
-.logo-img {
-  width: 70px;
-  margin-left: 15rem;
+.box-2 {
+  background-color: hsl(10, 79%, 65%);
+  width: 60px;
+  border-radius: 8px;
 }
+
+.box-3 {
+  background-color: hsl(186, 34%, 60%);
+  width: 60px;
+  border-radius: 8px;
+}
+
+.box-4 {
+  background-color: hsl(10, 79%, 65%);
+  width: 60px;
+  border-radius: 8px;
+}
+
+.box-5 {
+  background-color: hsl(10, 79%, 65%);
+  width: 60px;
+  border-radius: 8px;
+}
+
+.box-6 {
+  background-color: hsl(10, 79%, 65%);
+  width: 60px;
+  border-radius: 8px;
+}
+
+.box-7 {
+  background-color: hsl(10, 79%, 65%);
+  width: 60px;
+  border-radius: 8px;
+}
+
