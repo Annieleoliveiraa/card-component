@@ -6,22 +6,34 @@ html {
 }
 
 .container {
-  width: 1000px;
-  height: 400px;
-  background-color: aquamarine;
+  width: 800px;
+  height: 380px;
+  background-color: hsl(244, 38%, 16%);
   margin-right: auto;
   margin-left: auto;
-  margin-top: 40px;
+  margin-top: 80px;
   display: flex;
   border-radius: 10px;
 }
 
 .card-container {
-
+  display: flex;
+  flex-direction: column;
 }
 
 .card-img {
-  width: 500px;
-  height: 400px;
+  width: 400px;
+  height: 380px;
   border-radius: 0 10px 10px 0;
+}
+
+h2 {
+  color: hsl(0, 0%, 100%);
+  font-family: 'Inter', sans-serif;
+  margin: 40px;
+  width: 300px;
+}
+
+span {
+  color: hsl(277, 64%, 61%);
 }
