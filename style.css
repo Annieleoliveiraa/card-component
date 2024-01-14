@@ -6,12 +6,12 @@ html {
 }
 
 .container {
-  width: 878px;
-  height: 380px;
+  width: 1008px;
+  height: 500px;
   background-color: hsl(244, 38%, 16%);
   margin-right: auto;
   margin-left: auto;
-  margin-top: 80px;
+  margin-top: 20px;
   display: flex;
   border-radius: 10px;
 }
@@ -22,9 +22,10 @@ html {
 }
 
 .card-img {
-  width: 474px;
-  height: 380px;
+  width: 504px;
+  height: 500px;
   border-radius: 0 10px 10px 0;
+  margin-left: 100px;
 }
 
 h2 {
@@ -34,7 +35,7 @@ h2 {
   width: 300px;
 }
 
-span {
+.span {
   color: hsl(277, 64%, 61%);
 }
 
@@ -44,4 +45,20 @@ p {
   line-height: 26px;
   margin: -5px 35px 40px 30px;
   width: 340px;
+}
+
+.container-number {
+  
+}
+
+.number {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+span {
+  font-size: 22px;
+  color: white;
+  font-weight: bolder;
+  margin-top: -10px;
 }
