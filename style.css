@@ -6,26 +6,21 @@ html {
 }
 
 .container {
-  width: 1008px;
-  height: 500px;
+  width: 1100px;
+  height: 420px;
   background-color: hsl(244, 38%, 16%);
   margin-right: auto;
   margin-left: auto;
-  margin-top: 20px;
+  margin-top: 40px;
   display: flex;
   border-radius: 10px;
 }
 
-.card-container {
-  display: flex;
-  flex-direction: column;
-}
-
 .card-img {
-  width: 504px;
-  height: 500px;
+  width: 450px;
+  height: 420px;
   border-radius: 0 10px 10px 0;
-  margin-left: 100px;
+  margin-left: 200px;
 }
 
 h2 {
@@ -33,6 +28,7 @@ h2 {
   font-family: 'Inter', sans-serif;
   margin: 40px;
   width: 300px;
+  text-align: center;
 }
 
 .span {
@@ -43,21 +39,23 @@ p {
   color: hsla(0, 0%, 100%, 0.75);
   font-family: 'Inter', sans-serif;
   line-height: 26px;
-  margin: -5px 35px 40px 30px;
-  width: 340px;
+  margin: -5px 35px 40px 55px;
+  width: 360px;
 }
 
-.container-number {
-  
+.card-container {
+  display: flex;
+  flex-direction: column;
 }
 
 .number {
   font-size: 12px;
   text-transform: uppercase;
+  margin-bottom: 15px;
 }
 
-span {
-  font-size: 22px;
+strong {
+  font-size: 20px;
   color: white;
   font-weight: bolder;
   margin-top: -10px;
