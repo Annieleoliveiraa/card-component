@@ -4,3 +4,67 @@ html {
   margin: 0;
   padding: 0;
 }
+
+h2 {
+  margin-top: 45px;
+  margin-left: 50px;
+  color: hsl(0, 0%, 100%);
+  font-family: 'Inter', sans-serif;
+  width: 300px;
+}
+
+span {
+  color: hsl(277, 64%, 61%);
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: 'Inter', sans-serif;
+  padding-top: -10px;
+  margin-left: 50px;
+  width: 380px;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+strong {
+  font-size: 16px;
+}
+
+.container {
+  width: 920px;
+  height: 350px;
+  border-radius: 10px;
+  background-color: hsl(244, 38%, 16%);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  display: flex;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.card-img {
+  width: 450px;
+  height: 350px;
+  margin-left: 200px;
+  border-radius: 0 10px 10px 0;
+}
+
+.card-numbers {
+  display: flex;
+  gap: 10px;
+  margin: 10px;
+}
+
+.num1, .num2, .num3 {
+  font-family:'Lexend Deca', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 12px;
+  margin-left: 40px;
+}
